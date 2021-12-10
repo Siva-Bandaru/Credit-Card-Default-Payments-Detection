@@ -3,7 +3,7 @@ Predicting credit card defaulters by training data set with different machine le
 
 ## Table of Contents:
 + [Data Set](#Data_Set) </br>
-+ [Result](#Results) </br>
++ [Performance](#Performance) </br>
 
 ## <a name="Data_Set"></a> Data Set 
 
