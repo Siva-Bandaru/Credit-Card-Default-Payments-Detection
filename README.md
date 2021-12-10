@@ -70,11 +70,9 @@ A simple linear SVM classifier works by drawing a straight line between two clas
  
 - Performed training on data set.
 - Predicting the model by using test data set.
-- Evaluated the model by F1 score and confusion matrix.
-- Evaluating the model using K Fold Cross validation.
+- Evaluated the model by using F1 score,K Fold Cross validation and confusion matrix.
 - Testing the trained model with new dataset
 
- 
 - Logistic Regression
 - Naive bayes
 - Random Forest
@@ -84,3 +82,7 @@ A simple linear SVM classifier works by drawing a straight line between two clas
 ## <a name="Performance"> </a> Performance
 **Following is the performance of each models used.**
 ![image](https://user-images.githubusercontent.com/95928967/145607620-8f56e6bf-5f14-4886-a5ff-6506d5abd7b8.png)
+
+![image](https://user-images.githubusercontent.com/95928967/145636792-b7e5e418-02c6-4583-999e-9d0701a92992.png)
+
+
