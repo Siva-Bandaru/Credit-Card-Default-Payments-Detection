@@ -62,6 +62,18 @@ A support vector machine "(SVM) is a supervised machine learning algorithm that 
 **How it works**
 
 A simple linear SVM classifier works by drawing a straight line between two classes. That is, all data points on one side of the line represent categories, and data points on the other side of the line are placed into other categories. This means you can choose from an infinite number of lines. What makes the linear SVM algorithm better than other algorithms like nearest neighbour is that it picks the best line for classifying data points. Pick the line that separates the data and keep it as far away as possible from the cabinet data points. 2D examples will help you understand all machine learning jargon. A grid usually has multiple data points. You want to categorize these data points, but you don't want your data to fall into the wrong category. This means that we are trying to find the line between the two nearest points that separates the other data points. Therefore, the two nearest data points give the reference vector to use to find this line. This line is called the decision boundary.
+
+**Logistic Regression**
+
+**How it works**
+
+**Naive bayes**
+
+**How it works**
+
+**Random Forest**
+
+**How it works**
  
  ## <a name="How_we_used_these_models_in_project"> </a> How we used these models in project
  
@@ -69,12 +81,6 @@ A simple linear SVM classifier works by drawing a straight line between two clas
 - Predicting the model by using test data set.
 - Evaluated the model by using F1 score,K Fold Cross validation and confusion matrix.
 - Testing the trained model with new dataset
-
-- Logistic Regression
-- Naive bayes
-- Random Forest
-
-
 
 ## <a name="Performance"> </a> Performance
 **Following is the performance of each models used.**
