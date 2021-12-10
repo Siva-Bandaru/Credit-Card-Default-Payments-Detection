@@ -1,8 +1,12 @@
 # Credit-Card-Default-Payments-Detection
-Predicting credit card defaulters by training data set with different machine learning algorithms and comparing performance of each model
+This is the final project for the course of Artificial Intelligence(Fall-2021) and it is implemented by Siva Bandaru and Keerthan Malagam.
+
+This project implements prediction of credit card defaulters by training data set with different machine learning algorithms and comparing performance of each model.
+
 
 ## Table of Contents:
 + [Data Set](#Data_Set) </br>
++ [Machine Learning models used](#Machine Learning models used) </br>
 + [Performance](#Performance) </br>
 
 ## <a name="Data_Set"></a> Data Set 
@@ -50,8 +54,26 @@ There are 24 features:
 - default payment next month: Default payment (1=yes, 0=no)
 ***
 
-**Machine Learning models used**
-- SVM
+## <a name="Machine Learning models used"></a>Machine Learning models used 
+**SVM**
+
+A support vector machine "(SVM) is a supervised machine learning algorithm that can be used for both classification as a regression task. However, it is mainly used in classification problems. In the SVM algorithm, each of the values ​​at a particular coordinate. Draw each data element as a point in the n-dimensional space (n is the number of features) that is the value of  the feature. Next, find a superplane that very well distinguishes the two classes and perform the classification.
+
+**How does it work**
+
+A simple linear SVM classifier works by drawing a straight line between two classes. That is, all  data points on one side of the line  represent categories, and  data points on the other side of the line are placed into other categories. This means you can choose from an infinite number of lines. What makes the 
+ linear SVM algorithm better than  other algorithms like nearest neighbor is that it picks the best line for classifying data points. Pick the line that separates the data and keep it as far away as possible from the cabinet data points. 
+  2D examples will help you understand all  machine learning jargon. A grid usually has multiple data points. You want to categorize these data points, but you don't want your data to fall into the wrong category. This means that we are trying to find the line between the two nearest points that separates the other data points. 
+ Therefore, the two nearest data points give  the reference vector to use to find this line. This line is called the decision boundary.
+ 
+ **How we used these models in project**
+ 
+- Performed training on data set.
+- Predicting the model by using test data set.
+- Evaluated the model by F1 score and confusion matrix.
+- Evaluating the model using K Fold Cross validation
+
+ 
 - Logistic Regression
 - Naive bayes
 - Random Forest
