@@ -60,7 +60,7 @@ There are 24 features:
 
 A support vector machine "(SVM) is a supervised machine learning algorithm that can be used for both classification as a regression task. However, it is mainly used in classification problems. In the SVM algorithm, each of the values ​​at a particular coordinate. Draw each data element as a point in the n-dimensional space (n is the number of features) that is the value of  the feature. Next, find a superplane that very well distinguishes the two classes and perform the classification.
 
-**How does it work**
+**How it works**
 
 A simple linear SVM classifier works by drawing a straight line between two classes. That is, all data points on one side of the line represent categories, and data points on the other side of the line are placed into other categories. This means you can choose from an infinite number of lines. What makes the linear SVM algorithm better than other algorithms like nearest neighbour is that it picks the best line for classifying data points. Pick the line that separates the data and keep it as far away as possible from the cabinet data points. 2D examples will help you understand all machine learning jargon. A grid usually has multiple data points. You want to categorize these data points, but you don't want your data to fall into the wrong category. This means that we are trying to find the line between the two nearest points that separates the other data points. Therefore, the two nearest data points give the reference vector to use to find this line. This line is called the decision boundary.
  
