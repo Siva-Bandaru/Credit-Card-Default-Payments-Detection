@@ -3,7 +3,6 @@ This is the final project for the course of Artificial Intelligence(Fall-2021) a
 
 This project implements prediction of credit card defaulters by training data set with different machine learning algorithms and comparing performance of each model.
 
-
 ## Table of Contents:
 + [Data Set](#Data_Set) </br>
 + [Machine Learning models used](#Machine_Learning_models_used) </br>
@@ -63,8 +62,6 @@ A support vector machine "(SVM) is a supervised machine learning algorithm that 
 **How it works**
 
 A simple linear SVM classifier works by drawing a straight line between two classes. That is, all data points on one side of the line represent categories, and data points on the other side of the line are placed into other categories. This means you can choose from an infinite number of lines. What makes the linear SVM algorithm better than other algorithms like nearest neighbour is that it picks the best line for classifying data points. Pick the line that separates the data and keep it as far away as possible from the cabinet data points. 2D examples will help you understand all machine learning jargon. A grid usually has multiple data points. You want to categorize these data points, but you don't want your data to fall into the wrong category. This means that we are trying to find the line between the two nearest points that separates the other data points. Therefore, the two nearest data points give the reference vector to use to find this line. This line is called the decision boundary.
- 
- 
  
  ## <a name="How_we_used_these_models_in_project"> </a> How we used these models in project
  
