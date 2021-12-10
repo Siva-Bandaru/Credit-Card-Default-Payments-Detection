@@ -50,4 +50,14 @@ There are 24 features:
 - default payment next month: Default payment (1=yes, 0=no)
 ***
 
-## <a name="Results"> </a> Result
+**Machine Learning models used**
+- SVM
+- Logistic Regression
+- Naive bayes
+- Random Forest
+
+
+
+## <a name="Performance"> </a>
+**Following is the performance of each models used.**
+![image](https://user-images.githubusercontent.com/95928967/145607620-8f56e6bf-5f14-4886-a5ff-6506d5abd7b8.png)
