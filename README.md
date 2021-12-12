@@ -65,15 +65,40 @@ A simple linear SVM classifier works by drawing a straight line between two clas
 
 **Logistic Regression**
 
+Logistic regression — also known as logit regression, binary logit, or binary logistic regression. The statistical method of logistic regression is used to predict the outcome of a dependent variable based on previous observations. It's a type of regression analysis that's frequently used to solve binary classification problems.
+
+The approach used by logistic regression is to model the log of the odds ratio of the outcomes.A logistic regression model is fit by estimating the coefficients using maximum likelihood estimation. This is because no closed-form solution exists, unlike for linear regression.If you're unfamiliar with regression analysis, it's a type of predictive modeling technique that's used to determine the relationship between a dependent variable and one or more independent variables.
+
 **How it works**
+
+In Logistic regression, instead of fitting a regression line, we fit an "S" shaped logistic function, which predicts two maximum values (0 or 1).
+The curve from the logistic function indicates the likelihood of something such as whether the cells are cancerous or not, a mouse is obese or not based on its weight, etc.
+Logistic Regression is a significant machine learning algorithm because it has the ability to provide probabilities and classify new data using continuous and discrete datasets.
+Logistic Regression can be used to classify the observations using different types of data and can easily determine the most effective variables used for the classification
 
 **Naive bayes**
 
+A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem.
+
 **How it works**
+
+Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.
 
 **Random Forest**
 
+Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.
+
 **How it works**
+
+Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.
+
+One big advantage of random forest is that it can be used for both classification and regression problems, which form the majority of current machine learning systems. Let's look at random forest in classification, since classification is sometimes considered the building block of machine learning. Below you can see how a random forest would look like with two trees:
+
+Random forest has nearly the same hyperparameters as a decision tree or a bagging classifier. Fortunately, there's no need to combine a decision tree with a bagging classifier because you can easily use the classifier-class of random forest. With random forest, you can also deal with regression tasks by using the algorithm's regressor.
+
+Random forest adds additional randomness to the model, while growing the trees. Instead of searching for the most important feature while splitting a node, it searches for the best feature among a random subset of features. This results in a wide diversity that generally results in a better model.
+
+Therefore, in random forest, only a random subset of the features is taken into consideration by the algorithm for splitting a node. You can even make trees more random by additionally using random thresholds for each feature rather than searching for the best possible thresholds (like a normal decision tree does).
  
  ## <a name="How_we_used_these_models_in_project"> </a> How we used these models in project
  
